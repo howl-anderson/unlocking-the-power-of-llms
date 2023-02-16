@@ -14,7 +14,7 @@ ChatGPT 诞生后，因其非常强大的又难以置信的的能力，得到了
 
 将要讨论的 NLP 任务如下图所示：
 
-![](./images/nlp_tasks.png)
+![](./images/nlp_tasks.jpg)
 
 ## 文本润色与改错
 
@@ -125,7 +125,7 @@ Knowledge is power! And it exists in the ChatGPT!
 
 我们将得到如下的结果：
 
-![](./images/nlu_augment_result.png)
+![](./images/nlu_augment_result.jpg)
 
 是的，我没搞错，你也没看错，这次 ChatGPT 给出的不是文本，而是表格！事实上，ChatGPT 作为一个基于文本的对话机器人当然是没有能力直接生成表格这样的非文本产物的。那么这里为什么会显示成表格呢？那是因为 ChatGPT 输出的是 markdown 格式的表格信息，ChatGPT 网页将 markdown 信息进行了渲染，因此用户看到的将是渲染后的表格。ChatGPT 实际输出的文本是这样的：
 
