@@ -302,6 +302,32 @@ ChatGPT 给出的推理结果是:
 
 TODO: 今天实在忙不过来了，明天更新～
 
+## ChatGPT 陪你游戏
+
+### 五子棋游戏
+
+TODO: 今天实在忙不过来了，明天更新～
+
+### 你画我猜
+
+TODO: 今天实在忙不过来了，明天更新～
+
+## 讽刺检测
+
+TODO: 今天实在忙不过来了，明天更新～
+
+## 汉字转拼音
+
+TODO: 今天实在忙不过来了，明天更新～
+
+## 句子边界检测/自动分句
+
+TODO: 今天实在忙不过来了，明天更新～
+
+## 中文分词和词性标注
+
+TODO: 今天实在忙不过来了，明天更新～
+
 ## 想要更多 ChatGPT 的神奇用法？
 
 没问题！更多内容已经在策划中了，欢迎在 Github 上关注（follow）[作者](https://github.com/howl-anderson)，点赞（star）[这个项目](https://github.com/howl-anderson/unlocking-the-power-of-llms)！您的支持是作者持续研究的最大动力！
