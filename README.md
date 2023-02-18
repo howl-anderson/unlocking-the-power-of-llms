@@ -328,6 +328,11 @@ TODO: 今天实在忙不过来了，明天更新～
 
 TODO: 今天实在忙不过来了，明天更新～
 
+## 使用 ChatGPT 对托福独立写作进行打分并给予写作指导
+
+什么？？！这也可以？！没错，ChatGPT 它真的可以！真的实现了：既要（免费）又要（水平高）还要（快速）。
+TODO: 今天实在忙不过来了，明天更新～
+
 ## 想要更多 ChatGPT 的神奇用法？
 
 没问题！更多内容已经在策划中了，欢迎在 Github 上关注（follow）[作者](https://github.com/howl-anderson)，点赞（star）[这个项目](https://github.com/howl-anderson/unlocking-the-power-of-llms)！您的支持是作者持续研究的最大动力！
