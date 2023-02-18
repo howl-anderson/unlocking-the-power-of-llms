@@ -336,6 +336,18 @@ TODO: 今天实在忙不过来了，明天更新～
 头脑风暴：既然 ChatGPT 可以对托福写作进行打分和指导，那么托业（TOEIC），雅思（IELTS），英语四级（CET-4），英语六级（CET-6），考研英语，高考英语，中考英语，公务员考试等是不是也毫无压力？！
 ChatGPT 即将快速改变许许多多的产业和群体！真正的 Game Changer！
 
+## KPI 填写
+
+焦头烂额，不知道 KPI 到底该怎么写才能满足要求（逼格满满）？
+
+TODO: 今天实在忙不过来了，明天更新～
+
+## 周报/日报扩写
+
+作为社畜，这就是救命工具啊！居家旅行必备良药～！
+
+TODO: 今天实在忙不过来了，明天更新～
+
 ## 想要更多 ChatGPT 的神奇用法？
 
 没问题！更多内容已经在策划中了，欢迎在 Github 上关注（follow）[作者](https://github.com/howl-anderson)，点赞（star）[这个项目](https://github.com/howl-anderson/unlocking-the-power-of-llms)！您的支持是作者持续研究的最大动力！
