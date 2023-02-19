@@ -330,10 +330,46 @@ TODO: 今天实在忙不过来了，明天更新～
 
 ## 使用 ChatGPT 对托福（TOEFL）独立写作进行打分并给予写作指导（e-rater）
 
-什么？？！这也可以？！没错，ChatGPT 它真的可以！真的实现了：既要（免费）又要（水平高）还要（快速）。
-TODO: 今天实在忙不过来了，明天更新～
+什么？？！这也可以？！没错，ChatGPT 它真的可以！真的实现了：既要（免费）又要（水平高）还要（快速）！
 
-头脑风暴：既然 ChatGPT 可以对托福写作进行打分和指导，那么托业（TOEIC），雅思（IELTS），英语四级（CET-4），英语六级（CET-6），考研英语，高考英语，中考英语，公务员考试等是不是也毫无压力？！
+究竟该怎么做呢？你可以这样和 ChatGPT 说：
+
+```
+托福写作的题目是：
+As a student of university that has a long break between university semesters, the university requires all students to do one of the following for one month during the break:
+
+1、Students must take a course on the subject that has no direct connection to their majors of study ( For example, a student majoring in engineering may take course in fine arts or social science.)
+
+2、Students must volunteer to work in the university's city or their hometowns to improve some aspects of life of the city or their own town.( For example, students may help local primary school children with their homework.)
+
+Which one do you think is more beneficial for students in their university? Why? Give detailed examples and reasons. Use your OWN words, do NOT use memorized examples.
+
+考生的回答是：
+
+In this day and age, it is commonly acknowledged that the four years of college are significant to a person's development. There have been ongoing debates on how students can best take advantage of their time during the long school breaks. People view it differently due to their dissimilar backgrounds and experiences. From my point of view, universities should ask students to volunteer to work in their hometowns or the city where the school is located in that they can make more friends and learn valuable skills.
+
+To begin with, doing voluntary work provides students with an entirely different environment to make connections with people outside of the campus. In other words, while university students spend most of their time at school and in class, they seldom have the chance to go out and make friends with people in the society. By volunteering to work in the city, as a result, students will get to know people who share the same interest with them and have the passion to make their community a better place. For example, last summer I volunteered in my hometown's largest bookstore. During my three weeks working there, I made friends with students of different ages and different backgrounds. Many of them studied in another city, but they all came back to their hometown during summer and wished to make some contribution to the community. I also met people who had already entered the workplace but still actively participating in voluntary work. I was impressed by the passion and vitality I saw on all these people. Some of them even turned out to be one of my best friends.
+
+Furthermore, being a volunteer helps students learn valuable skills that are not taught in the classroom. To be more specific, doing voluntary work requires one to be socially responsible, patient to others, and willing to make contact with strangers. Thus, during the time when students are volunteering, they gradually gain these important skills that will definitely benefit their self-development. For instance, a friend of my mother's is now a leader of a non-profit organization. When I met her last month, she gave me the impression of a very outgoing, warmhearted, and optimistic person. However, she told me that before she participated in voluntary work during her school days, she was extremely shy and introverted. Being a volunteer not only helped her understand her social responsibility but also made her into a helpful, extroverted person because of the constant interaction with other volunteers and people in need. As a result, after seeing the beauty of voluntary work, she founded her own non-profit organization, aiming to help homeless kids in the city.
+
+In conclusion, I believe that working as a volunteer in the students' hometowns or the cities where the universities are located benefits students a lot, because they can make friends with people outside of the campus and learn valuable skills that are not in the textbooks.
+
+你是一个托福考试的评分程序。请按照托福考试的评分细则，请对上面这位考生的托福写作水平进行评估，给出参考分数范围，分数范围 0 - 30。先输出分数，再给予解释。
+```
+
+然后 ChatGPT 就会这样回答你：
+
+```
+评分：25-28分
+
+理由：
+
+该考生的文章结构清晰，分别论述了为何选择做义工可以使大学生从更广阔的视角更全面地了解和发展自己。他们的论点和例子都是有说服力的，而且通过使用丰富的词汇和语法结构，能够清楚地表达他们的意思。虽然他们在语言表达上可能有一些小的问题，例如使用了一些不够流利的短语和措辞，但这些问题并不影响他们的意思传达。总体而言，这篇文章是高质量的托福写作。
+```
+
+怎么样，是不是太挺准确的？如果想要得到更多的指导，你只需要继续问 ChatGPT 就可以啦～
+
+**头脑风暴**：既然 ChatGPT 可以对托福写作进行打分和指导，那么托业（TOEIC），雅思（IELTS），英语四级（CET-4），英语六级（CET-6），考研英语，高考英语，中考英语，公务员考试等是不是也毫无压力？！
 ChatGPT 即将快速改变许许多多的产业和群体！真正的 Game Changer！
 
 ## KPI 填写
