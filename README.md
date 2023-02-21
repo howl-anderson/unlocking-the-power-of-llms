@@ -584,7 +584,7 @@ C4
 
 ### 你画我猜
 
-ChatGPT 只能处理文本，那么按说应该是无法画画的。但实际上有一种画就是用文字拼接而成的，那就也是充满魅力的 ASCII Art （https://en.wikipedia.org/wiki/ASCII_art， https://www.asciiart.eu/）。你可能在有些终端程序里面见过那些用字符拼接而成的图案，那些图案就是 ASCII Art。比如这个：
+ChatGPT 只能处理文本，那么按说应该是无法画画的。但实际上有一种画就是用文字拼接而成的，那就也是充满魅力的 ASCII Art （ https://en.wikipedia.org/wiki/ASCII_art ， https://www.asciiart.eu/ ）。你可能在有些终端程序里面见过那些用字符拼接而成的图案，那些图案就是 ASCII Art。比如这个：
 
 ```
   |\_/|        ****************************    (\_/)
