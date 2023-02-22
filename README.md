@@ -411,6 +411,8 @@ SVG 是可缩放矢量图形（Scalable Vector Graphics）的缩写，它是一�
 
 ![](./images/svg_image.png)
 
+这图是小火车？！额，可能是儿童玩具版的吧～ 至少 ChatGPT 可能是这样想的。。
+
 概括当前 ChatGPT 对 SVG 图像的生成情况，那就是可能连五岁儿童都打不过的。。不过不要太担心，ChatGPT 还在加速成长，过一段时间就会有大的进步，我们以发展的眼光看，后面的实力肯定会飞速提升的，不要着急。
 
 ### graphviz 图形
