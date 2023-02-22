@@ -304,6 +304,121 @@ ChatGPT 本身确实是无法输出二进制图像的，但是我们可以通过
 
 常见的方法/格式有：ASCII art，SVG 和 mermaid / graphviz 等图形生成语法。我们将逐一演示如何使用。
 
+### ASCII Art
+
+你可能在有些终端程序里面见过那些用字符拼接而成的图案，那些图案就是 ASCII Art（ https://en.wikipedia.org/wiki/ASCII_art ， https://www.asciiart.eu/ ）。比如这个：
+
+```
+  |\_/|        ****************************    (\_/)
+ / @ @ \       *  "Purrrfectly pleasant"  *   (='.'=)
+( > º < )      *       Poppy Prinz        *   (")_(")
+ `>>x<<´       *   (pprinz@example.com)   *
+ /  O  \       ****************************
+```
+
+或者这个：
+
+```
+                 ,     ,  ._  ,
+                _.MMmm.mMm_Mm.MMm_:mMMmmm.._  .
+           _ .-mmMMMMMMMMMMMMm:MMm:MMMMMMMMMm._
+            `-.mm.MMMMMMM:MMMMMMMmmMMMMMMMMMmm._
+         _.mMMMMMmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM"~.
+          .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm._
+         _.MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm._
+      ..mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmm.
+     _.mmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm.
+      _.MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm_
+  .mmMMMMMMMMMMMMMMMMMMMMMMMM' `MMMMMMMMMMMMMMMMMMMMMMm,
+ _.-' _.mMMMMMMMMMMMMMMMMMMM'      `MMMMMMMMMMMMMMMM""`
+  _,MMMmMMMMMMMMMMMMMMMM'            `MMMMMMMMMMMMMMmm.
+    _.-'MMMMMMMMMMMMMMM.'""`.    ,'""`.MMMMMMMMMMMMMMMM.
+   .mmMMMMMMMMMMMMMMMM' <(o)>`  '<(o)>` MMMMMMMMMMMMMMMm.
+      .MMMMMMMMMMMMMMM                 'MMMMMMMMMMMMMMM:
+   ,MMMmMMMMMMMMMMMMM'                 `MMMMMMMMMMMMmm.
+  ,ME:MMMMMMMMMMMMMM_6       -  -       7_MMMMMMMMM:Mm_
+  !M:MmmMMMMMMMMMMMMML_                _JMMMMMMMMMm:MMm.
+  '':mMMMMMMMMMMMMMMMM\     ______     /dMMMMMMMMMMM:'Mm.
+   ':MMM:MMMMMMMMMMMMMM\    `.__.'    /MMMMMM:MMMMMMm: `
+  .M:MMM:MMMMMMMMMMMMMMM`.          ,'MMMMMMM:MMMMMMMm
+    .Mm:mMMMMMMMMMMMMMMM| `.      .' |MMMMMMm:.MMMMM.
+   .Mm:mMMMMMMMMMMMMMMMM|   `----':: |MMMMMMMmm`MMMMMm.
+     !:mMMMMMMMMMMMMMMMM|      ::::. |MMMMMMMMMMM``mMm.
+       !MMMMMMMMM'MMMMMM|      .:::. |MMMMMMMMMMMMM.._
+       MMMMMMMMM'MMMM'M/       ::::'  \MMMMMMMMMMMMMMm,
+      .mMMMMMMM'MMMM'MMm.       '     .`".MMMMMMMMMMMMm.
+       !!JmMMM'MMM' `M:.      ,  ,     .. M.".MMMMMMMMm.
+        FMMMMMm.`M   M..              .. `Mm   `"".MMMmm.
+        MMMM'    M      ..           ..    `M      MM`.M!
+        Mm'               ..        ..      M      M'   \
+        /                                                \dp
+```
+
+是不是别有一番风味？～
+
+其实有些播放器（比如大名顶顶的 VLC media player）是能够将视频以 ASCII Art 的效果来播放的，因此可以得到如下的动图效果：
+
+![](./images/ascii_art_movie.webp)
+
+
+
+我们可以通过这样的话术，让其输出一张的 ASCII Art 画：
+
+```
+你是一个 ASCII art 生成软件。生成一个 ASCII art 画像，内容是动物。
+```
+
+ChatGPT 的输出：
+
+```
+/_/\
+( o o )
+=( Y )=
+'---'
+
+这是一只可爱的小猫！
+```
+
+总体来说，让 ChatGPT 生成 ASCII art 画像是没问题的，但效果就很。。。差强人意了～（真的，我试了好几次了），不过随着 ChatGPT 的不断改进，后面这一块必然会变强的，未来可其
+
+### SVG 图形
+
+SVG 是可缩放矢量图形（Scalable Vector Graphics）的缩写，它是一种用于描述二维图形的 XML 格式标准。与传统的位图格式（如 JPEG 和 PNG）不同，SVG 格式的图像可以无限缩放而不会失去清晰度。由于它是 XML 格式，因此可以使用文本来创建 SVG 文件，因此 ChatGPT 可以直接生成 SVG 文件内容。
+
+我们可以这样和 ChatGPT 说：
+
+```
+帮我生成 SVG 格式的小火车图片
+```
+
+下面是 ChatGPT 的回复：
+
+```
+好的，以下是一个简单的 SVG 格式的小火车图案：
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="10" y="60" width="80" height="20" rx="10" fill="#333"/>
+  <rect x="15" y="45" width="70" height="15" rx="7.5" fill="#333"/>
+  <rect x="25" y="30" width="50" height="15" rx="7.5" fill="#ff5722"/>
+  <circle cx="30" cy="75" r="15" fill="#f44336"/>
+  <circle cx="70" cy="75" r="15" fill="#f44336"/>
+</svg>
+
+这个小火车图案由一个矩形和两个圆组成，其中矩形用于火车车身，圆用于车轮，颜色可以根据需要进行修改。将这段代码保存为一个 SVG 文件，然后用浏览器或者 SVG 编辑器打开即可看到图案。
+```
+
+我们把这段 SVG 代码放到一个在线的 SVG 查看器里面（https://www.svgviewer.dev/），就会看到 SVG 的渲染效果：
+
+![](./images/svg_image.png)
+
+概括当前 ChatGPT 对 SVG 图像的生成情况，那就是可能连五岁儿童都打不过的。。不过不要太担心，ChatGPT 还在加速成长，过一段时间就会有大的进步，我们以发展的眼光看，后面的实力肯定会飞速提升的，不要着急。
+
+### graphviz 图形
+
+TODO: 今天实在忙不过来了，明天更新～
+
+### mermaid 图形
+
 TODO: 今天实在忙不过来了，明天更新～
 
 ## ChatGPT 陪你游戏
@@ -588,41 +703,9 @@ C4
 
 ### 你画我猜
 
-ChatGPT 只能处理文本，那么按说应该是无法画画的。但实际上有一种画就是用文字拼接而成的，那就也是充满魅力的 ASCII Art （ https://en.wikipedia.org/wiki/ASCII_art ， https://www.asciiart.eu/ ）。你可能在有些终端程序里面见过那些用字符拼接而成的图案，那些图案就是 ASCII Art。比如这个：
+ChatGPT 只能处理文本，那么按说应该是无法画画的。但实际上有一种画就是用文字拼接而成的，那就也是充满魅力的 ASCII Art 
 
-```
-  |\_/|        ****************************    (\_/)
- / @ @ \       *  "Purrrfectly pleasant"  *   (='.'=)
-( > º < )      *       Poppy Prinz        *   (")_(")
- `>>x<<´       *   (pprinz@example.com)   *
- /  O  \       ****************************
-```
-
-或者这个（蒙娜丽莎）：
-
-```
-          ____  
-        o8%8888,    
-      o88%8888888.  
-     8'-    -:8888b   
-    8'         8888  
-   d8.-=. ,==-.:888b  
-   >8 `~` :`~' d8888   
-   88         ,88888   
-   88b. `-~  ':88888  
-   888b ~==~ .:88888 
-   88888o--:':::8888      
-   `88888| :::' 8888b  
-   8888^^'       8888b  
-  d888           ,%888b.   
- d88%            %%%8--'-.  
-/88:.__ ,       _%-' ---  -  
-    '''::===..-'   =  --.
-```
-
-是不是别有一番风味？～
-
-回到正题，你画我猜，我们可以要求 ChatGPT 输出 ASCII Art，这样也就直接实现了让 ChatGPT 输出图像的目的。
+对于你画我猜游戏，我们可以要求 ChatGPT 输出 ASCII Art，这样也就直接实现了让 ChatGPT 输出图像的目的。
 
 我是这么和 ChatGPT 玩你画我猜游戏的。
 
@@ -704,7 +787,7 @@ ChatGPT 只能处理文本，那么按说应该是无法画画的。但实际上
 是的，你猜对了！这是只猫的 ASCII Art。
 ```
 
-总体来说，这个你画我猜的游戏，除了有时会出一些“神奇的动物”，ChatGPT 的完成度还是挺高的。作为一个文字类程序，能有这样的表现，是真的很惊喜啦～
+总体来说，这个你画我猜的游戏，除了有时会出一些“神奇的动物”，ChatGPT 的完成度还是挺高的。作为一个文字类程序，能有这样的表现，是真的很惊喜～
 
 ## 讽刺检测
 
