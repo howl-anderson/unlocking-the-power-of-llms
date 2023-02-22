@@ -407,7 +407,7 @@ SVG 是可缩放矢量图形（Scalable Vector Graphics）的缩写，它是一�
 这个小火车图案由一个矩形和两个圆组成，其中矩形用于火车车身，圆用于车轮，颜色可以根据需要进行修改。将这段代码保存为一个 SVG 文件，然后用浏览器或者 SVG 编辑器打开即可看到图案。
 ```
 
-我们把这段 SVG 代码放到一个在线的 SVG 查看器里面（https://www.svgviewer.dev/），就会看到 SVG 的渲染效果：
+我们把这段 SVG 代码放到一个在线的 SVG 查看器里面（ https://www.svgviewer.dev/ ），就会看到 SVG 的渲染效果：
 
 ![](./images/svg_image.png)
 
