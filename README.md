@@ -1100,7 +1100,27 @@ TODO: 今天实在忙不过来了，明天更新～
 
 ## NL2SQL (自然语言转SQL语句)
 
-TODO: 今天实在忙不过来了，明天更新～
+作为一个很久很久没写后端的程序员，我基本已经把 SQL 语法忘的差不多了。如果现在让我去写 SQL 查询数据，那肯定是一个痛苦的慢慢试错的过程。好消息是，我们的 ChatGPT 神通广大，我只需要用文字描述我的需求，它就能自动帮我生成 SQL 语句。
+
+下面我们来看这个例子：
+
+````
+已知在一个 MySQL 数据库中存在一个名为 student 的表，这个表中有 id, score, gender 和 name 这几个字段。现在你帮我写个 SQL，用于查询这个表中 score 大于 60， gender 为 女 的学生的 name，要求按照 ID 升序排列。
+````
+
+ChatGPT 不仅给出了 SQL 语句，还详细的向我解释了一番其中每个子句的含义：
+
+````
+可以使用以下 SQL 查询语句：
+
+```sql
+SELECT name FROM student WHERE score > 60 AND gender = '女' ORDER BY id ASC;
+```
+
+其中，`SELECT name` 表示我们只查询出学生的名字，`FROM student` 表示我们要查询的表是 student，`WHERE score > 60 AND gender = '女' `表示我们要筛选出分数大于 60 分，且性别为女的学生，`ORDER BY id ASC` 表示我们要按照 ID 升序排列查询结果。
+````
+
+有了 ChatGPT，从此老板再也没有担心过我的 SQL 语句！
 
 ## PPT/网页/服装的配色/搭配
 
