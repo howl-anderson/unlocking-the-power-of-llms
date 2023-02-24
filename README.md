@@ -1096,7 +1096,58 @@ TODO: 今天实在忙不过来了，明天更新～
 
 需要一个编程大师帮你看看代码，指点一二？或者遇到了奇怪的 Bug，不知道如何解决？没错，直接找万能的 ChatGPT 就行，保证药到病除！
 
-TODO: 今天实在忙不过来了，明天更新～
+下面是一个示例：
+
+```
+帮我修复下面这个程序的 bug：
+
+import Random
+a = random.randint(1,12)
+b = random.randint(1,12)
+for i in range(10):
+    question = "What is "+a+" x "+b+"? "
+    answer = input(question)
+    if answer = a*b
+        print (Well done!)
+    else:
+        print("No.")
+```
+
+ChatGPT 不仅给出了正确的答案，还非常贴心的告诉我错在哪里了，为什么是错的，太贴心了：
+
+````
+这个程序有几个语法和逻辑错误，以下是修复后的程序：
+
+```python
+import random
+
+a = random.randint(1, 12)
+b = random.randint(1, 12)
+
+for i in range(10):
+    question = "What is " + str(a) + " x " + str(b) + "? "
+    answer = int(input(question))
+    
+    if answer == a * b:
+        print("Well done!")
+    else:
+        print("No.")
+```
+
+修改说明：
+
+1. 第一行中的 "Random" 应该是小写的 "random"；
+2. 第一行应该导入了 "random" 库之后，才能使用 "random.randint()" 方法来生成随机整数；
+3. 在第 4 行和第 5 行中，应该将 Random 改为 random；
+4. 在第 6 行中，应该将变量 question 中的 a 和 b 转换为字符串，即改为 str(a) 和 str(b)；
+5. 在第 8 行中，应该使用双等号 == 来比较两个值是否相等，而不是单个等号 =，单个等号是赋值操作；
+6. 在第 9 行中，字符串 "Well done!" 应该加上引号；
+7. 在第 10 行中，应该将字符串 "No." 加上引号。
+
+这样就可以正确运行了，每次会随机出两个 1 到 12 之间的整数，然后出 10 道题，让用户输入答案，如果答对了会输出 "Well done!"，否则会输出 "No."。
+````
+
+是不是觉得 ChatGPT 的出现比 IDE 更好用呢？也许过不了多久，就会出现在 IDE 里集成 ChatGPT，在你写代码的同时，ChatGPT 在旁边不停的提醒你这里错了，那里不对。有点像是少林扫地僧在自己身边转来转去，边扫地边指导晚辈写代码的的感觉了！～
 
 ## NL2SQL (自然语言转SQL语句)
 
