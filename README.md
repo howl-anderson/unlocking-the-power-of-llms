@@ -1090,7 +1090,37 @@ TODO: 今天实在忙不过来了，明天更新～
 
 如果你已经有了代码，那么你可以让 ChatGPT 帮你写单元测试代码！这下不用担心单元测试覆盖率不够高的问题了～
 
-TODO: 今天实在忙不过来了，明天更新～
+我们可以这样和 ChatGPT 说：
+
+```
+帮我下面的代码写一个基于 pytest 的单元测试函数：
+
+ def foo(a: int, b: int):
+    if a < b:
+        return "<"
+    elif a > b:
+        return ">"
+    return "="
+```
+
+那么 ChatGPT 就能帮我生成这样一段单元测试函数：
+
+```
+import pytest
+
+def test_foo():
+assert foo(3, 5) == "<"
+assert foo(5, 3) == ">"
+assert foo(4, 4) == "="
+assert foo(-2, 4) == "<"
+assert foo(8, 1) == ">"
+assert foo(0, 0) == "="
+assert foo(-5, -1) == "<"
+assert foo(-3, -10) == ">"
+assert foo(100, 100) == "="
+```
+
+如果我们忽略 ChatGPT 生成代码时没有正确的输出 python 缩进的问题。那么这个单元测试代码还真是挺完美的。有了 ChatGPT，从此人人都是单元测试高手！
 
 ## 帮你 Review 代码 / debug
 
