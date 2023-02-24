@@ -16,6 +16,42 @@ ChatGPT 诞生后，因其非常强大的又难以置信的的能力，得到了
 
 ![](./images/nlp_tasks.jpg)
 
+## [目录]
+
+  * [文本润色与改错](#%E6%96%87%E6%9C%AC%E6%B6%A6%E8%89%B2%E4%B8%8E%E6%94%B9%E9%94%99)
+  * [文本翻译](#%E6%96%87%E6%9C%AC%E7%BF%BB%E8%AF%91)
+  * [NLU 语料扩充](#nlu-%E8%AF%AD%E6%96%99%E6%89%A9%E5%85%85)
+  * [NLU 语料清洗](#nlu-%E8%AF%AD%E6%96%99%E6%B8%85%E6%B4%97)
+  * [NLU 推理](#nlu-%E6%8E%A8%E7%90%86)
+    + [将 ChatGPT 作为 NLU 模型进行训练](#%E5%B0%86-chatgpt-%E4%BD%9C%E4%B8%BA-nlu-%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E8%AE%AD%E7%BB%83)
+    + [将 ChatGPT 作为 NLU 模型进行推理](#%E5%B0%86-chatgpt-%E4%BD%9C%E4%B8%BA-nlu-%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E6%8E%A8%E7%90%86)
+  * [ChatGPT 输出图像](#chatgpt-%E8%BE%93%E5%87%BA%E5%9B%BE%E5%83%8F)
+    + [ASCII Art](#ascii-art)
+    + [SVG 图形](#svg-%E5%9B%BE%E5%BD%A2)
+    + [graphviz 图形](#graphviz-%E5%9B%BE%E5%BD%A2)
+    + [mermaid 图形](#mermaid-%E5%9B%BE%E5%BD%A2)
+  * [ChatGPT 陪你游戏](#chatgpt-%E9%99%AA%E4%BD%A0%E6%B8%B8%E6%88%8F)
+    + [井字棋](#%E4%BA%95%E5%AD%97%E6%A3%8B)
+    + [五子棋游戏](#%E4%BA%94%E5%AD%90%E6%A3%8B%E6%B8%B8%E6%88%8F)
+    + [你画我猜](#%E4%BD%A0%E7%94%BB%E6%88%91%E7%8C%9C)
+  * [讽刺检测](#%E8%AE%BD%E5%88%BA%E6%A3%80%E6%B5%8B)
+  * [汉字转拼音](#%E6%B1%89%E5%AD%97%E8%BD%AC%E6%8B%BC%E9%9F%B3)
+  * [句子边界检测/自动分句](#%E5%8F%A5%E5%AD%90%E8%BE%B9%E7%95%8C%E6%A3%80%E6%B5%8B%E8%87%AA%E5%8A%A8%E5%88%86%E5%8F%A5)
+  * [中文分词和词性标注](#%E4%B8%AD%E6%96%87%E5%88%86%E8%AF%8D%E5%92%8C%E8%AF%8D%E6%80%A7%E6%A0%87%E6%B3%A8)
+  * [使用 ChatGPT 对托福（TOEFL）独立写作进行打分并给予写作指导（e-rater）](#%E4%BD%BF%E7%94%A8-chatgpt-%E5%AF%B9%E6%89%98%E7%A6%8Ftoefl%E7%8B%AC%E7%AB%8B%E5%86%99%E4%BD%9C%E8%BF%9B%E8%A1%8C%E6%89%93%E5%88%86%E5%B9%B6%E7%BB%99%E4%BA%88%E5%86%99%E4%BD%9C%E6%8C%87%E5%AF%BCe-rater)
+  * [KPI 填写](#kpi-%E5%A1%AB%E5%86%99)
+  * [周报/日报扩写](#%E5%91%A8%E6%8A%A5%E6%97%A5%E6%8A%A5%E6%89%A9%E5%86%99)
+  * [分析代码的时间复杂度](#%E5%88%86%E6%9E%90%E4%BB%A3%E7%A0%81%E7%9A%84%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6)
+  * [优化代码](#%E4%BC%98%E5%8C%96%E4%BB%A3%E7%A0%81)
+  * [将文字描述的需求转换成 Linux 命令行](#%E5%B0%86%E6%96%87%E5%AD%97%E6%8F%8F%E8%BF%B0%E7%9A%84%E9%9C%80%E6%B1%82%E8%BD%AC%E6%8D%A2%E6%88%90-linux-%E5%91%BD%E4%BB%A4%E8%A1%8C)
+  * [编写程序代码](#%E7%BC%96%E5%86%99%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81)
+  * [编写单元测试代码](#%E7%BC%96%E5%86%99%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%BB%A3%E7%A0%81)
+  * [帮你 Review 代码 / debug](#%E5%B8%AE%E4%BD%A0-review-%E4%BB%A3%E7%A0%81--debug)
+  * [NL2SQL (自然语言转SQL语句)](#nl2sql-%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E8%BD%ACsql%E8%AF%AD%E5%8F%A5)
+  * [PPT/网页/服装的配色/搭配](#ppt%E7%BD%91%E9%A1%B5%E6%9C%8D%E8%A3%85%E7%9A%84%E9%85%8D%E8%89%B2%E6%90%AD%E9%85%8D)
+  * [想要更多 ChatGPT 的神奇用法？](#%E6%83%B3%E8%A6%81%E6%9B%B4%E5%A4%9A-chatgpt-%E7%9A%84%E7%A5%9E%E5%A5%87%E7%94%A8%E6%B3%95)
+
+
 ## 文本润色与改错
 
 这一任务通常使用 Grammarly 等工具来完成，但事实上 ChatGPT 是可以作为一个更加强大的文本润色和改错工具的！
@@ -64,12 +100,6 @@ Knowledge is power! And it exists in the ChatGPT!
 ```
 知识就是力量！而这种力量存在于ChatGPT中！
 ```
-
-# NLU 开发
-
-除了上面这些比较通用的文本任务，我们还能对 ChatGPT 进行 finetune，让其阅读我们的数据，理解我们的业务逻辑，从而可以成为一个骨干员工级别的生产力助手。
-
-下面我们将按照场景进行细分说明。
 
 ## NLU 语料扩充
 
