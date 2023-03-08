@@ -1,7 +1,5 @@
 # 使用 Prompts 和 Chains 让 ChatGPT 成为神奇的生产力工具！
 
-**重要的事情（×3）**：ChatGPT 官方 API 正式发布了 https://openai.com/blog/introducing-chatgpt-and-whisper-apis ！
-
 ChatGPT 诞生后，因其非常强大的又难以置信的的能力，得到了非常广泛的关注。用户将 ChatGPT 视作一种有趣且知识渊博的聊天工具。但事实上，使用合适的 Prompts 和 Chains，可以将 ChatGPT 作为一个神奇的生产力工具，能够处理各种各样复杂的任务。本仓库将详细介绍如何使用 ChatGPT 完成各种任务。
 
 **One more thing**: 作者作为谷歌机器学习开发者专家（Google Developer Experts in Machine Leaning），即将拿到 Google Bard 模型的内部试用资格。后续将会把 Google Bard 相关的评测和使用指南也更新到这个仓库。敬请期待～
@@ -11,9 +9,15 @@ ChatGPT 诞生后，因其非常强大的又难以置信的的能力，得到了
 ChatGPT 的强大能力让每个人都能够轻松地创建出非常智能和惊人的应用程序，而这将会快速地影响到整个社会的各行各业。因此，如何充分利用 ChatGPT 的能力，创造出有趣、有意义又实用的产品，是非常重要的话题。在这个过程中，最核心的是绝妙的产品思维。随着 ChatGPT API 已经开放，必将会出现许多非常有趣和有商业价值的应用程序。对于有 IT 背景的我们来说，这是最好的时代，我们正处在一个史无前例的大风口上。本项目旨在向大家展示 ChatGPT 的无限可能性和无数神奇的应用，激发大家的想象力和创造力，让大家在这个百年难得一遇的科技浪潮和技术革命中找到自己的机遇，书写属于自己的传奇！
 
 ## 想要可以直接使用的用户 GUI 程序或者 SDK？
-作者我最近正在构建基于 ChatGPT API 的开源的软件和SDK，暂命名为 wand，中文意为魔棒，没错就是哈利波特等魔法师手里的万能的魔棒🪄。这样你可以通过用户界面和SDK调用的方式获得本项目所列出来的所有神奇能力，而无需关心底层逻辑（Prompts 的设计和底层的程序设计等）。
+作者我最近正在构建一个基于 ChatGPT API 的开源的软件和SDK，暂命名为 wand，中文意为魔棒，没错就是哈利波特等魔法师手里的万能的魔棒🪄。这样你可以通过用户界面和SDK调用的方式获得本项目所列出来的所有神奇能力，而无需关心底层逻辑（Prompts 的设计和底层的程序设计等）。
 
 欢迎在 Github 上关注（follow）[作者](https://github.com/howl-anderson)！这样的话，你就能第一时间得到我的项目更新和我最新开源的项目消息了。关注我，让我帮你打开一扇通往新世界的大门！～
+
+## Facebook (Meta)  的 LLaMA 模型（235GB）- 百度网盘下载 
+
+![](./images/llama_models.png)
+
+链接: https://pan.baidu.com/s/1MMetNrNsCFoET6rZYrF2Mg?pwd=fmj4 提取码: fmj4
 
 ## 计划
 
