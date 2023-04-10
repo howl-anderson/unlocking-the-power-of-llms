@@ -17,7 +17,7 @@ ChatGPT 的强大能力让每个人都能够轻松地创建出非常智能和惊
 
 ![](./images/llama_models.png)
 
-链接: https://pan.baidu.com/s/1MMetNrNsCFoET6rZYrF2Mg?pwd=fmj4 提取码: fmj4
+链接: https://pan.baidu.com/s/1ujG85wgQFuIyf74N9k2MDQ?pwd=nu4d 提取码: nu4d
 
 ## 计划
 
