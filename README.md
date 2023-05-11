@@ -13,12 +13,6 @@ ChatGPT 的强大能力让每个人都能够轻松地创建出非常智能和惊
 
 欢迎在 Github 上关注（follow）[作者](https://github.com/howl-anderson)！这样的话，你就能第一时间得到我的项目更新和我最新开源的项目消息了。关注我，让我帮你打开一扇通往新世界的大门！～
 
-## Facebook (Meta)  的 LLaMA 模型（235GB）- 百度网盘下载 
-
-![](./images/llama_models.png)
-
-链接: https://pan.baidu.com/s/1ujG85wgQFuIyf74N9k2MDQ?pwd=nu4d 提取码: nu4d
-
 ## 计划
 
 我们计划使用 ChatGPT （也将包含 Google Bard）完成各种 NLP 任务和一些非 NLP 任务。
